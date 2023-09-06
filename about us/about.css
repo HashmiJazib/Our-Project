@@ -1,0 +1,124 @@
+
+
+ 
+.Ournavbar {
+  background-color: #002B5B;
+  
+  
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.nav-link{
+  color: #ffffff;
+}
+
+/* /////////// navbar button css /////// */
+
+.bi-telephone-fill {
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  right: -18vw;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.bi-bag-plus {
+  font-size: 23px;
+  color: #ffffff;
+  cursor: pointer;
+  right: -19vw;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.bi-bag-plus:hover {
+  color: #ffffff;
+}
+
+/* make button */
+
+.styled-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #002B5B;
+  border: none;
+  border-radius: 4%;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: 19vw;
+}
+
+.styled-button:hover {
+  background-color: #F9F5EB;
+  color: #020303;
+}
+
+.styled-button:focus {
+  outline: none;
+}
+
+
+
+/* about us /////////////// */
+/* Custom CSS for additional styling */
+.custom-carousel {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(65, 64, 64, 0.2);
+}
+
+.custom-carousel-img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-content {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+    /* ........//////////// team css /////////////////,,,,, */
+    .team-card {
+    border: none;
+    transition: transform 0.5s;
+    
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+

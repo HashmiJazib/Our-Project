@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.Ournavbar {
+  background-color: #002B5B;
+  
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.nav-link{
+  color: #ffffff;
+}
+
+/* /////////// navbar button css /////// */
+
+.bi-telephone-fill {
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  right: -18vw;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.bi-bag-plus {
+  font-size: 23px;
+  color: #ffffff;
+  cursor: pointer;
+  right: -19vw;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.bi-bag-plus:hover {
+  color: #ffffff;
+}
+
+/* make button */
+
+.styled-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #002B5B;
+  border: none;
+  border-radius: 4%;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: 19vw;
+}
+
+.styled-button:hover {
+  background-color: #F9F5EB;
+  color: #020303;
+}
+
+.styled-button:focus {
+  outline: none;
+}
+
+
+
+.header{
+    text-align: center;
+    padding: 32px;
+}
+.header h1{
+    font-family: 'Sacramento';
+    font-size: 55px;
+    color: #102C57;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px 50px 50px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+}
+.img-hover-zoom{
+    height: auto;
+    overflow: hidden;
+    border: 3px solid #DAC0A3;
+}
+.img-hover-zoom img{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition:  transform .5s ease;
+}
+.img-hover-zoom:hover img{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
